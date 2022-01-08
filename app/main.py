@@ -4,7 +4,10 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
 from .library.helpers import *
+
 from app.routers import unsplash
+from app.routers import twoforms
+from app.routers import accordion
 
 
 app = FastAPI()
