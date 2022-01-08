@@ -1,3 +1,6 @@
+# https://levelup.gitconnected.com/building-a-website-starter-with-fastapi-92d077092864
+# The site I learnt from 
+
 from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
